@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+@use './fonts' as *;
+
+
+
+body {
+    font-family: $font-body;
+    background-color: $bg-color;
+}
+
+main {
+    padding: 2rem;
+}
+
+

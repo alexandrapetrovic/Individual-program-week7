@@ -1,0 +1,13 @@
+@use '../base/' as *;
+
+.fw-bold {
+    font-weight: $fw-bold;
+}
+
+.fw-italic {
+    font-weight: $fw-italic;
+}
+
+.fw-normal {
+    font-weight: $fw-medium;
+}

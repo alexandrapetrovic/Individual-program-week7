@@ -1,0 +1,23 @@
+@use '../base/' as *;
+@use '../abstracts/' as*;
+
+
+    
+
+.nav-btn {
+    color: $gray-100;
+    background-color: $gray-800;
+    cursor: pointer;
+    padding: $space-2;
+    width: 100%;
+    
+}
+
+.btn-form {
+    color: $gray-100;
+    background-color: $gray-800;
+    cursor: pointer;
+    padding: $space-1 $space-2;
+    width: 40%;
+    
+}

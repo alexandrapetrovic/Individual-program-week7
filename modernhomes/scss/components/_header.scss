@@ -1,0 +1,30 @@
+@use '../abstracts/' as *;
+
+    
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: $space-4;
+    .logo {
+        object-fit: cover;
+        height: 22px;
+        width: 206px;
+        
+    }
+}
+
+.nav-primary {
+    display: flex;
+    gap: $space-3;
+    .nav-list {
+        display: flex;
+        cursor: pointer;
+        gap: $space-3;
+       
+    }
+    .nav-item {
+        padding: $space-2;
+    }
+}
+

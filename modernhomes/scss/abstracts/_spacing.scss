@@ -1,0 +1,17 @@
+
+/*
+--space-unit: 1em;
+--space-xs:   calc(0.5 * var(--space-unit));
+--space-sm:   calc(0.75 * var(--space-unit));
+--space-md:   calc(1.25 * var(--space-unit));
+--space-lg:   calc(2 * var(--space-unit));
+--space-xl:   calc(3.25 * var(--space-unit));
+*/
+
+
+$space-base: 1rem;
+$space-1: calc(0.5 * $space-base);
+$space-2: calc(0.75 * $space-base);
+$space-3: calc(1.25 * $space-base);
+$space-4: calc(2 * $space-base);
+$space-5: calc(3.25 * $space-base);
